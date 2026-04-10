@@ -1,9 +1,9 @@
 # fastxridgrep
 
-A small C utility that filters FASTA/FASTQ records by read ID.
+A small utility program that filters FASTA/FASTQ records by read ID.
 
-Each line in the pattern file is treated as one read ID entry; only the first
-whitespace-delimited token is used.
+pattern file: line separated, read ids are considered until the first whitespace. 
+
 
 ## Build
 
