@@ -1,0 +1,5 @@
+build/
+fastxridgrep
+*.o
+*.tmp
+.DS_Store
