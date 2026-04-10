@@ -400,9 +400,9 @@ int main(int argc, char **argv)
     }
 
     if (strcmp(input_path, "-") == 0) {
-        in = gzdopen(fileno(stdin), "r");
+        in = gzdopen(fileno(stdin), "rb");
     } else {
-        in = gzopen(input_path, "r");
+        in = gzopen(input_path, "rb");
     }
 
     if (in == NULL) {
